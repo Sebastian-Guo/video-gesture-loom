@@ -1,11 +1,11 @@
-# Motion Loom · 视频手势绘画
+# Motion Loom · Video Gesture Drawing
 
-独立的视频手势绘画工具，沿用 Gesture Loom 的手指丝带绘画方式。
+An independent video drawing tool using the Finger Ribbons style from Gesture Loom.
 
-选择视频 → 开始绘画 → 导出 PNG。视频与手部识别均在浏览器本地处理，最多识别两只手。支持暂停继续、配色、笔宽、透明度和平滑度调整。
+Choose a video → Start drawing → Export PNG. Video processing and hand tracking run locally in your browser, with up to two hands. Pause and resume, or adjust palette, width, opacity, and smoothing before drawing again.
 
-推荐 MP4 / H.264 视频。遮挡、快速动作或较小的手部可能导致漏检。关闭页面前请导出作品。
+MP4 / H.264 is recommended. Occlusion, fast movement, and small hands may cause missed detections. Export your artwork before closing the page.
 
-使用静态服务器预览：`python3 -m http.server 8000`。
+Local preview: `python3 -m http.server 8000`.
 
-手部识别使用 MediaPipe Hand Landmarker。
+Hand tracking uses MediaPipe Hand Landmarker.
